@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Genesis Jimenez, QA Tester y desarrolladora en formación.">
+  <title>Genesis Jimenez · Portafolio</title>
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- BOOTSTRAP JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <!-- ESTILOS PROPIOS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#top">Genesis Jimenez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+          <a class="nav-link" href="#caso-estudio">Caso de estudio</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-md-4 text-center">
+          <img src="https://github.com/Genesis-Jimenez-QA.png" alt="Foto de perfil de Genesis Jimenez"
+            class="hero-avatar rounded-circle">
+        </div>
+        <div class="col-12 col-md-8 text-center text-md-start">
+          <h1>Genesis Jimenez</h1>
+          <p class="hero-tagline">QA Tester &amp; Desarrolladora en formación</p>
+          <p class="text-muted">
+            Combino mi formación en testing con mis primeros pasos en desarrollo web, para construir
+            productos digitales cuidados de punta a punta: desde la interfaz hasta la calidad del código.
+          </p>
+          <div class="mt-3">
+            <a href="https://github.com/Genesis-Jimenez-QA" target="_blank" rel="noreferrer"
+              class="btn btn-primary me-2 mb-2">Ver GitHub</a>
+            <a href="https://www.linkedin.com/in/genesisjimenezt/" target="_blank" rel="noreferrer"
+              class="btn btn-outline-primary me-2 mb-2">LinkedIn</a>
+            <a href="#contacto" class="btn btn-outline-primary mb-2">Contactarme</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE MÍ / STACK -->
+  <section id="sobre-mi" class="seccion-suave">
+    <div class="container">
+      <h2 class="text-center mb-4">Mi stack</h2>
+
+      <h3 class="text-center h6 text-uppercase text-muted mb-3">Desarrollo</h3>
+      <div class="text-center mb-4">
+        <span class="badge-skill">HTML</span>
+        <span class="badge-skill">CSS3</span>
+        <span class="badge-skill">JavaScript</span>
+        <span class="badge-skill">Bootstrap</span>
+        <span class="badge-skill">Node.js</span>
+        <span class="badge-skill">Express</span>
+        <span class="badge-skill">PostgreSQL</span>
+        <span class="badge-skill">Git &amp; GitHub</span>
+      </div>
+
+      <h3 class="text-center h6 text-uppercase text-muted mb-3">QA &amp; Testing</h3>
+      <div class="text-center">
+        <span class="badge-skill">Jira</span>
+        <span class="badge-skill">TestLink</span>
+        <span class="badge-skill">Trello</span>
+        <span class="badge-skill">Postman</span>
+        <span class="badge-skill">SQL</span>
+        <span class="badge-skill">Confluence</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Proyectos</h2>
+      <div class="row g-4">
+
+        <div class="col-12 col-md-4">
+          <div class="card card-proyecto p-3">
+            <div class="card-body">
+              <h3 class="h5">Alky-Wallet</h3>
+              <p class="text-muted">Billetera digital de demostración (HTML, CSS, Bootstrap, JS). Incluye
+                proceso de testing QA aplicado por mí misma.</p>
+              <a href="https://genesis-jimenez-qa.github.io/abp-m2/" target="_blank" rel="noreferrer"
+                class="btn btn-primary btn-sm mb-2">Ver demo</a>
+              <a href="https://github.com/Genesis-Jimenez-QA/abp-m2" target="_blank" rel="noreferrer"
+                class="btn btn-outline-primary btn-sm mb-2">Ver código</a>
+              <a href="#caso-estudio" class="btn btn-outline-primary btn-sm mb-2">Caso de estudio ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card card-proyecto acento-rosa p-3">
+            <div class="card-body">
+              <h3 class="h5">TaskFlow</h3>
+              <p class="text-muted">Gestor de tareas desarrollado durante el bootcamp, con creación,
+                edición y organización de tareas.</p>
+              <a href="https://github.com/Genesis-Jimenez-QA/ABP-m4" target="_blank" rel="noreferrer"
+                class="btn btn-outline-primary btn-sm mb-2">Ver código</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card card-proyecto acento-rosa p-3">
+            <div class="card-body">
+              <h3 class="h5">Calculadora de IVA</h3>
+              <p class="text-muted">Calculadora de impuestos para distintos países de Latinoamérica,
+                construida con JavaScript.</p>
+              <a href="https://github.com/Genesis-Jimenez-QA/abp-m3" target="_blank" rel="noreferrer"
+                class="btn btn-outline-primary btn-sm mb-2">Ver código</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CASO DE ESTUDIO -->
+  <section id="caso-estudio" class="seccion-suave">
+    <div class="container caso-estudio">
+      <h2 class="text-center mb-4">Caso de estudio: Alky-Wallet</h2>
+
+      <div class="row g-3 mb-4">
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <div class="numero">15</div>
+            <div class="text-muted small">Casos de prueba</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <div class="numero">11</div>
+            <div class="text-muted small">Aprobados</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <div class="numero">5</div>
+            <div class="text-muted small">Bugs detectados</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <div class="numero">1</div>
+            <div class="text-muted small">Bug corregido</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Descripción de la actividad</h3>
+      <p>Alky-Wallet es una billetera digital de demostración construida durante el bootcamp (HTML, CSS,
+        Bootstrap y JavaScript), con pantallas de login, depósito, envío de dinero y transacciones.</p>
+
+      <h3>Desafío principal</h3>
+      <p>El proyecto llevaba tiempo sin actualizarse: tenía imágenes rotas, un botón que enviaba el
+        formulario por error, y nunca había sido sometido a un proceso de testing formal.</p>
+
+      <h3>Solución propuesta</h3>
+      <p>Actualicé la interfaz visual manteniendo Bootstrap como base (sin sobre-complicar el diseño), y
+        luego apliqué un proceso de testing manual completo: definí un plan de pruebas, ejecuté 15 casos de
+        prueba funcionales y documenté los defectos encontrados en un repositorio de QA dedicado.</p>
+
+      <h3>Herramienta técnica utilizada</h3>
+      <p>HTML, CSS y Bootstrap para la interfaz; JavaScript para la lógica simulada; documentación de
+        testing en Markdown, publicado en GitHub.</p>
+
+      <h3>Principales aprendizajes</h3>
+      <p>Reforcé cómo revisar código ajeno (o propio, de meses atrás) con ojo crítico, cómo documentar
+        defectos de forma clara y reproducible, y cómo priorizar qué mejorar cuando el tiempo es limitado.</p>
+
+      <h3>Habilidades técnicas aplicadas</h3>
+      <p>Testing funcional manual, diseño de casos de prueba, reporte de bugs, HTML/CSS/Bootstrap, control
+        de versiones con Git.</p>
+
+      <h3>Por qué elegí este proyecto</h3>
+      <p>Porque combina mis dos perfiles: desarrollo y QA. Muestra que no solo puedo construir una
+        interfaz, sino también evaluarla críticamente, tal como lo haría en un puesto real de Trainee Tech.</p>
+
+      <div class="text-center mt-4">
+        <a href="https://genesis-jimenez-qa.github.io/abp-m2/" target="_blank" rel="noreferrer"
+          class="btn btn-primary me-2 mb-2">Ver demo en vivo</a>
+        <a href="https://github.com/Genesis-Jimenez-QA/QA-Alky-Wallet" target="_blank" rel="noreferrer"
+          class="btn btn-outline-primary mb-2">Ver repositorio de QA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-3">Contacto</h2>
+      <p class="text-muted">¿Buscas un/a Trainee Tech con perfil de QA y desarrollo? Hablemos.</p>
+      <a href="mailto:solangelj03@gmail.com" class="btn btn-primary me-2 mb-2">solangelj03@gmail.com</a>
+      <a href="https://www.linkedin.com/in/genesisjimenezt/" target="_blank" rel="noreferrer"
+        class="btn btn-outline-primary me-2 mb-2">LinkedIn</a>
+      <a href="https://github.com/Genesis-Jimenez-QA" target="_blank" rel="noreferrer"
+        class="btn btn-outline-primary mb-2">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      Genesis Jimenez — Portafolio construido con HTML, CSS y Bootstrap.
+    </div>
+  </footer>
+
+</body>
+
+</html>

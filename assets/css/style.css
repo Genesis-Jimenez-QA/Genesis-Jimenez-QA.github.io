@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+  --morado: #7c3aed;
+  --morado-oscuro: #5b21b6;
+  --rosa: #f9a8d4;
+  --rosa-suave: #fdf2f8;
+  --fondo: #faf7ff;
+  --texto: #2e1065;
+}
+
+body {
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  border-bottom: 3px solid var(--rosa);
+}
+
+.navbar-brand {
+  color: var(--morado) !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: var(--texto) !important;
+}
+
+.nav-link:hover {
+  color: var(--morado) !important;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--morado);
+  border-color: var(--morado);
+}
+
+.btn-primary:hover {
+  background-color: var(--morado-oscuro);
+  border-color: var(--morado-oscuro);
+}
+
+.btn-outline-primary {
+  color: var(--morado);
+  border-color: var(--morado);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--morado);
+  border-color: var(--morado);
+}
+
+/* Hero */
+.hero {
+  padding: 4rem 0;
+}
+
+.hero-avatar {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border: 5px solid var(--rosa);
+}
+
+.hero-tagline {
+  color: var(--morado);
+  font-weight: 600;
+}
+
+/* Secciones con fondo alterno */
+.seccion-suave {
+  background: var(--rosa-suave);
+  padding: 3.5rem 0;
+}
+
+/* Badges de stack */
+.badge-skill {
+  background: var(--rosa-suave);
+  color: var(--morado-oscuro);
+  border: 1px solid var(--rosa);
+  font-weight: 500;
+  padding: 0.5rem 0.9rem;
+  margin: 0.25rem;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+/* Tarjetas de proyecto */
+.card-proyecto {
+  border: none;
+  border-top: 5px solid var(--morado);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(124, 58, 237, 0.08);
+  height: 100%;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-proyecto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.15);
+}
+
+.card-proyecto.acento-rosa {
+  border-top-color: var(--rosa);
+}
+
+/* Caso de estudio */
+.caso-estudio h3 {
+  color: var(--morado);
+  font-size: 1.15rem;
+  margin-top: 1.4rem;
+}
+
+.stat-box {
+  background: #ffffff;
+  border: 1px solid var(--rosa);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-box .numero {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--morado);
+}
+
+/* Footer */
+.site-footer {
+  background: var(--morado-oscuro);
+  color: #f3e8ff;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
