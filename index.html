@@ -53,8 +53,9 @@
           <h1>Genesis Jimenez</h1>
           <p class="hero-tagline">QA Tester &amp; Desarrolladora en formación</p>
           <p class="text-muted">
-            Combino mi formación en testing con mis primeros pasos en desarrollo web, para construir
-            productos digitales cuidados de punta a punta: desde la interfaz hasta la calidad del código.
+            Trainee en Desarrollo Full Stack JavaScript (Node.js, Express, PostgreSQL), con formación
+            previa como QA Tester. Construyo productos digitales cuidando tanto la lógica del backend
+            como la calidad del resultado final.
           </p>
           <div class="mt-3">
             <a href="https://github.com/Genesis-Jimenez-QA" target="_blank" rel="noreferrer"
@@ -103,22 +104,34 @@
       <h2 class="text-center mb-5">Proyectos</h2>
       <div class="row g-4">
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card card-proyecto p-3">
             <div class="card-body">
-              <h3 class="h5">Alky-Wallet</h3>
-              <p class="text-muted">Billetera digital de demostración (HTML, CSS, Bootstrap, JS). Incluye
-                proceso de testing QA aplicado por mí misma.</p>
-              <a href="https://genesis-jimenez-qa.github.io/abp-m2/" target="_blank" rel="noreferrer"
-                class="btn btn-primary btn-sm mb-2">Ver demo</a>
-              <a href="https://github.com/Genesis-Jimenez-QA/abp-m2" target="_blank" rel="noreferrer"
-                class="btn btn-outline-primary btn-sm mb-2">Ver código</a>
+              <h3 class="h5">Tienda Online API</h3>
+              <p class="text-muted">API backend con Node.js, Express, PostgreSQL, Sequelize y autenticación
+                JWT. Proyecto final integrador de 3 módulos del bootcamp.</p>
+              <a href="https://github.com/Genesis-Jimenez-QA/abp-m7-m8" target="_blank" rel="noreferrer"
+                class="btn btn-primary btn-sm mb-2">Ver código</a>
               <a href="#caso-estudio" class="btn btn-outline-primary btn-sm mb-2">Caso de estudio ↓</a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card card-proyecto acento-rosa p-3">
+            <div class="card-body">
+              <h3 class="h5">Alky-Wallet</h3>
+              <p class="text-muted">Billetera digital de demostración (HTML, CSS, Bootstrap, JS), con
+                proceso de testing QA aplicado por mí misma.</p>
+              <a href="https://genesis-jimenez-qa.github.io/abp-m2/" target="_blank" rel="noreferrer"
+                class="btn btn-primary btn-sm mb-2">Ver demo</a>
+              <a href="https://github.com/Genesis-Jimenez-QA/abp-m2" target="_blank" rel="noreferrer"
+                class="btn btn-outline-primary btn-sm mb-2">Ver código</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card card-proyecto acento-rosa p-3">
             <div class="card-body">
               <h3 class="h5">TaskFlow</h3>
@@ -130,7 +143,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card card-proyecto acento-rosa p-3">
             <div class="card-body">
               <h3 class="h5">Calculadora de IVA</h3>
@@ -149,69 +162,95 @@
   <!-- CASO DE ESTUDIO -->
   <section id="caso-estudio" class="seccion-suave">
     <div class="container caso-estudio">
-      <h2 class="text-center mb-4">Caso de estudio: Alky-Wallet</h2>
+      <h2 class="text-center mb-4">Caso de estudio: Tienda Online API</h2>
+      <p class="text-center text-muted mb-4">Proyecto backend evolutivo (Módulos 6, 7 y 8) — Node.js, Express, PostgreSQL y autenticación JWT</p>
 
       <div class="row g-3 mb-4">
         <div class="col-6 col-md-3">
           <div class="stat-box">
-            <div class="numero">15</div>
-            <div class="text-muted small">Casos de prueba</div>
+            <div class="numero">3</div>
+            <div class="text-muted small">Módulos integrados</div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="stat-box">
-            <div class="numero">11</div>
-            <div class="text-muted small">Aprobados</div>
+            <div class="numero">15+</div>
+            <div class="text-muted small">Endpoints REST</div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="stat-box">
-            <div class="numero">5</div>
-            <div class="text-muted small">Bugs detectados</div>
+            <div class="numero">JWT</div>
+            <div class="text-muted small">Rutas protegidas</div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="stat-box">
-            <div class="numero">1</div>
-            <div class="text-muted small">Bug corregido</div>
+            <div class="numero">2MB</div>
+            <div class="text-muted small">Límite de archivos validado</div>
           </div>
         </div>
       </div>
 
       <h3>Descripción de la actividad</h3>
-      <p>Alky-Wallet es una billetera digital de demostración construida durante el bootcamp (HTML, CSS,
-        Bootstrap y JavaScript), con pantallas de login, depósito, envío de dinero y transacciones.</p>
+      <p>API RESTful para una tienda online (usuarios, productos y carritos), construida como proyecto
+        integrador a lo largo de los módulos 6, 7 y 8 del bootcamp. Empezó como un servidor Express básico
+        y terminó como una API completa, con base de datos real y autenticación.</p>
 
       <h3>Desafío principal</h3>
-      <p>El proyecto llevaba tiempo sin actualizarse: tenía imágenes rotas, un botón que enviaba el
-        formulario por error, y nunca había sido sometido a un proceso de testing formal.</p>
+      <p>Entender e implementar autenticación seria en una API: la diferencia entre guardar una sesión en
+        el servidor y usar un token JWT que el cliente reenvía en cada petición, por qué las contraseñas
+        deben guardarse "hasheadas" y no encriptadas, y cómo permitir la subida de archivos (imágenes de
+        producto) sin abrir la puerta a archivos inválidos o demasiado pesados.</p>
 
       <h3>Solución propuesta</h3>
-      <p>Actualicé la interfaz visual manteniendo Bootstrap como base (sin sobre-complicar el diseño), y
-        luego apliqué un proceso de testing manual completo: definí un plan de pruebas, ejecuté 15 casos de
-        prueba funcionales y documenté los defectos encontrados en un repositorio de QA dedicado.</p>
+      <p>Construí la API de forma incremental. En el módulo 6 armé la base con Express y un middleware de
+        logging. En el módulo 7 conecté PostgreSQL, primero con consultas SQL manuales y después con
+        Sequelize como ORM, comparando ambos enfoques. En el módulo 8 agregué login con JWT, hash de
+        contraseñas con bcrypt, un middleware que protege las rutas sensibles, y subida de imágenes con
+        Multer, validando tipo de archivo (jpg/png/webp) y peso máximo (2MB).</p>
 
       <h3>Herramienta técnica utilizada</h3>
-      <p>HTML, CSS y Bootstrap para la interfaz; JavaScript para la lógica simulada; documentación de
-        testing en Markdown, publicado en GitHub.</p>
+      <p>Node.js, Express, PostgreSQL, Sequelize, bcryptjs, jsonwebtoken (JWT), multer, dotenv, y Postman
+        para probar manualmente cada endpoint.</p>
 
       <h3>Principales aprendizajes</h3>
-      <p>Reforcé cómo revisar código ajeno (o propio, de meses atrás) con ojo crítico, cómo documentar
-        defectos de forma clara y reproducible, y cómo priorizar qué mejorar cuando el tiempo es limitado.</p>
+      <p>Entendí la diferencia entre autenticación con sesiones y autenticación stateless con JWT, por qué
+        se usa bcrypt específicamente para contraseñas (y no un hash genérico), y cómo separar un backend
+        en capas (rutas → controladores → servicios → repositorios) para que crezca de forma ordenada a
+        medida que se le agregan funcionalidades nuevas.</p>
+
+      <h3>Métricas de impacto</h3>
+      <p>Más de 15 endpoints documentados, rutas sensibles protegidas con JWT (devolviendo error 401 sin
+        token válido), manejo de conflictos con código 409, y validación de archivos subidos por tipo y
+        tamaño. El proyecto evolucionó sin necesidad de reescribir lo construido en los módulos anteriores.</p>
 
       <h3>Habilidades técnicas aplicadas</h3>
-      <p>Testing funcional manual, diseño de casos de prueba, reporte de bugs, HTML/CSS/Bootstrap, control
-        de versiones con Git.</p>
+      <p>Node.js, Express, diseño de APIs REST, PostgreSQL, ORM (Sequelize), autenticación JWT, hashing de
+        contraseñas con bcrypt, manejo de archivos con Multer, testing manual de endpoints con Postman,
+        control de versiones con Git.</p>
 
       <h3>Por qué elegí este proyecto</h3>
-      <p>Porque combina mis dos perfiles: desarrollo y QA. Muestra que no solo puedo construir una
-        interfaz, sino también evaluarla críticamente, tal como lo haría en un puesto real de Trainee Tech.</p>
+      <p>Porque resume mi recorrido en el bootcamp de Desarrollo Full Stack JavaScript: partí de un
+        servidor básico y terminé con una API backend real, segura y probada — que demuestra que puedo
+        hacer crecer un proyecto de forma ordenada, sin romper lo que ya funcionaba.</p>
 
       <div class="text-center mt-4">
-        <a href="https://genesis-jimenez-qa.github.io/abp-m2/" target="_blank" rel="noreferrer"
-          class="btn btn-primary me-2 mb-2">Ver demo en vivo</a>
+        <a href="https://github.com/Genesis-Jimenez-QA/abp-m7-m8" target="_blank" rel="noreferrer"
+          class="btn btn-primary mb-2">Ver repositorio</a>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="text-center">
+        <h3 class="h5">🔎 Un plus: validación QA</h3>
+        <p class="text-muted">
+          Además del desarrollo, aplico mi formación como QA Tester para validar mi propio trabajo. Un
+          ejemplo aplicado a otro proyecto (Alky-Wallet): plan de pruebas, 15 casos de prueba funcionales
+          y 5 defectos documentados. Es un plus que me diferencia como perfil junior.
+        </p>
         <a href="https://github.com/Genesis-Jimenez-QA/QA-Alky-Wallet" target="_blank" rel="noreferrer"
-          class="btn btn-outline-primary mb-2">Ver repositorio de QA</a>
+          class="btn btn-outline-primary btn-sm mb-2">Ver repositorio de QA</a>
       </div>
     </div>
   </section>
@@ -220,7 +259,7 @@
   <section id="contacto" class="py-5">
     <div class="container text-center">
       <h2 class="mb-3">Contacto</h2>
-      <p class="text-muted">¿Buscas un/a Trainee Tech con perfil de QA y desarrollo? Hablemos.</p>
+      <p class="text-muted">¿Buscas un/a Trainee Tech con perfil de desarrollo y QA? Hablemos.</p>
       <a href="mailto:solangelj03@gmail.com" class="btn btn-primary me-2 mb-2">solangelj03@gmail.com</a>
       <a href="https://www.linkedin.com/in/genesisjimenezt/" target="_blank" rel="noreferrer"
         class="btn btn-outline-primary me-2 mb-2">LinkedIn</a>
